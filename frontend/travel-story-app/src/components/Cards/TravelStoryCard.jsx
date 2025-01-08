@@ -22,8 +22,16 @@ export const TravelStoryCard = ({
         onClick={onClick}
       />
 
-      <button
+      {/* <button
         className="w-12 h-12 flex items-center bg-red-200 rounded-lg border border-white/30 absolute top-4 right-4"
+        onClick={onFavoriteClick}
+      >
+        <FaHeart
+          className={`icon-btn ${isFavorite ? "text-red-500" : "text-white"}`}
+        />
+      </button> */}
+      <button
+        className="w-10 h-10 flex items-center justify-center bg-red-200 rounded-full shadow-md border border-white/30 absolute top-4 right-4"
         onClick={onFavoriteClick}
       >
         <FaHeart
